@@ -17,4 +17,5 @@ This project has the objective of presenting the organization and code writting 
 4. Download the latest version of [Firefox](https://www.mozilla.org/pt-BR/firefox/new/) and [Geckodriver](https://github.com/mozilla/geckodriver/releases).
 5. Put the executable file from geckodriver in any folder from PATH environment variable.
 6. On the command prompt, type `robot <path to repository root>\Tests` to execute all the tests
-7. To use chromedriver, put the executable in the same folder as the geckodriver executable file and change the browser name in the Common\TestSettings.robot file to `Chrome` on the browser setup keyword.
+7. The test report will be in the project root directory, in the log.html file
+8. To use chromedriver, put the executable in the same folder as the geckodriver executable file and change the browser name in the Common\TestSettings.robot file to `Chrome` on the browser setup keyword.
