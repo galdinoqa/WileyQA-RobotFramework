@@ -1,6 +1,9 @@
 *** Settings ***
 Library         Selenium2Library
 Library         keyword_library.py
+Resource        ../Pages/P01-HomePage.robot
+Resource        ../Pages/P02-LoginModal.robot
+Resource        ../Pages/P03-MemberArea.robot
 
 *** Variables ***
 ${mainURL}                  https://teamshift-qa.crossknowledge.com

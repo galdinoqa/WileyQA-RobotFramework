@@ -1,8 +1,5 @@
 *** Settings ***
 Resource        ../Common/TestSettings.robot
-Resource        ../Pages/P01-HomePage.robot
-Resource        ../Pages/P02-LoginModal.robot
-Resource        ../Pages/P03-MemberArea.robot
 
 Suite setup         Open web browser
 Test setup          Clear local storage
