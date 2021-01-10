@@ -21,7 +21,6 @@ Suite teardown      Close browser
 
 02 - Unsuccessful login
     [Tags]      Negative
-    ${driver}       Get current driver
     Given that I am on TeamShift home page
     When I click on Enter button
     Then I should see a modal asking for my email
